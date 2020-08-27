@@ -21,7 +21,7 @@ def now_serving (katz_deli)
   else
     waiting_name="Currently serving"
     take_a_number(katz_deli).each_with_index do |name,i|
-      waiting_name -="#{name}"
+      waiting_name -=" #{name}"
     end
    puts waiting_name
 end
