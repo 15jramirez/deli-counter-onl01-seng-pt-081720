@@ -24,4 +24,5 @@ def now_serving (katz_deli)
       waiting_name -=" #{name}"
     end
    puts waiting_name
+ end
 end
