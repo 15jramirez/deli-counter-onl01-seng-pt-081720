@@ -20,7 +20,7 @@ def now_serving (katz_deli)
     puts "There is nobody waiting to be served!"
   else
     waiting_name="Currently serving"
-    take_a_number(katz_deli).each_with_index do |name,i|
+    take_a_number(katz_deli).each do |name|
       waiting_name -=" #{name}"
     end
    puts waiting_name
