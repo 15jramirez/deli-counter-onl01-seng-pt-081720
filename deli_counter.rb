@@ -11,9 +11,13 @@ def line (katz_deli)
 end
 
 def take_a_number (katz_deli,name)
-  people_in_line += "Welcome, #{name}. You are number #{i+1}"
-  katz_deli << 
+  katz_deli.join
+  puts "Welcome, #{name}. You are number #{i+1}"
+  katz_deli << "Welcome, #{name}. You are number #{i+1}"
 end
 
 def now_serving (katz_deli)
+  if katz_deli==0 
+    
+    -=
 end
