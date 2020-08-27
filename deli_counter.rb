@@ -5,17 +5,13 @@ def line (katz_deli)
     string_line ="The line is currently:"
     katz_deli.each_with_index do |name,num|
        string_line += " #{num + 1}. #{name}"
-       
-     
     end
    puts string_line
   end
-
 end
 
-def take_a_number (katz_deli,customer_name)
-  "Welcome, #{name}"
-  "You are number #{nme"
+def take_a_number (katz_deli,name)
+  
 end
 
 def now_serving (katz_deli)
