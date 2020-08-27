@@ -11,9 +11,8 @@ def line (katz_deli)
 end
 
 def take_a_number (katz_deli,name)
-  katz_deli
-  "Welcome, #{name}"
-  "You are number #{num+1}"
+  
+  katz_deli << "Welcome, #{name}. You are number #{num+1}"
 end
 
 def now_serving (katz_deli)
