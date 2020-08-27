@@ -19,5 +19,7 @@ def now_serving (katz_deli)
   if katz_deli == 0
     puts "There is nobody waiting to be served!"
   else
-    katz_deli.each_with_index
+    waiting_name="Currently serving"
+    katz_deli.(take_a_numbereach_with_index
+    
 end
